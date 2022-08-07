@@ -10,9 +10,9 @@
 </head>
 <body>
 <?php
-if (!empty( $_POST['tc'] && isset($_POST['kontrol']))) {
-        $tc = $_POST['tc'];
-        if (tckimlik($tc)) {
+$tc = $_POST['tc'];
+if ((!empty($tc) && isset($_POST['kontrol']) && is_numeric($tc))){
+        if ((tckimlik($tc))) {
             $result= "<p style='color:green'>TC KİMLİK NUMARANIZ DOĞRU</p>";
         }
         else
