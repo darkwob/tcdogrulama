@@ -10,10 +10,8 @@
 </head>
 <body>
 <?php
-if (!empty( $_POST['tc'])) {
-    if (isset($_POST['kontrol'])) {
+if (!empty( $_POST['tc'] && isset($_POST['kontrol']))) {
         $tc = $_POST['tc'];
-    
         if (tckimlik($tc)) {
             $result= "<p style='color:green'>TC KİMLİK NUMARANIZ DOĞRU</p>";
         }
@@ -21,7 +19,6 @@ if (!empty( $_POST['tc'])) {
         {
             $result="<p style='color:red'>TC KİMLİK NUMARANIZ YANLIŞ</p>";
         }
-      }
 }
     else
       {
