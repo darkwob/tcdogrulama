@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style.css">
+	<link rel="shortcut icon" href="https://seeklogo.com/images/E/e-devlet-sembol-logo-6F971085F4-seeklogo.com.png" type="image/x-icon">
+	<link rel="stylesheet" href="assets/style.css">
     <title>TC DOĞRULAMA</title>
 </head>
 <body>
